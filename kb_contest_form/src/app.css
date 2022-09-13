@@ -1,0 +1,143 @@
+
+form{
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  height: 58vh;
+
+}
+.down{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(213, 225, 238);
+
+}
+h1{
+  color : black;
+  text-align: center;
+}
+button1{
+  width: 60%;
+  height: 90px;
+  padding: 10px 60px;
+  cursor: pointer;
+  opacity: 0.6;
+  outline: 0;
+  border : none;
+  background-color: rgb(186, 187, 195);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+button2{
+  width: 60px;
+  height: 90px;
+  padding: 10px 60px;
+  cursor: pointer;
+  opacity: 0.6;
+  outline: 0;
+  border : none;
+  background-color:rgb(98, 146, 223);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  background-color: rgb(29, 100, 208);
+  justify-content:space-between;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__logo{
+  font-size: 24px;
+  color: white;
+  width: 10%;
+  padding: 0 200px;
+  font-size: 18px;
+}
+
+.navbar__menu {
+  display:flex;
+  list-style: none;
+  padding-right: 0;  
+  padding-left: 0;  
+}
+
+.navbar__menu li{
+  padding : 8px 20px
+}
+
+.navbar__menu li:hover{
+  background-color: rgb(98, 146, 223);
+  border-radius: 4px;
+}
+
+.navbar__icons{
+  list-style: none;
+  color: white;
+  display: flex;
+  padding-left: 0;
+  
+  padding: 0 200px;
+}
+
+.navbar__icons li{
+  padding : 8px 12px;
+}
+
+.navbar__icons li:hover{
+  background-color: rgb(98, 146, 223);
+  border-radius: 4px;
+}
+
+@media screen and (max-width:768px) {
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px
+  }
+
+  .navbar__menu{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar__menu li{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .navbar__icons{
+    justify-content: center;
+    width: 100%;
+  }
+  .navbar__icons li{
+    padding:8px 12px;
+  }
+
+}
